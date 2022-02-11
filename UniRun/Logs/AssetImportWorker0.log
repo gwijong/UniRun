@@ -139,3 +139,44 @@ Received Import Request.
 Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa27944bdea339c97c39027c7eea529c') in 0.017534 seconds 
   Import took 0.020730 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 2970.499507 seconds.
+  path: Assets/Scenes/Main.unity
+  artifactKey: Guid(e94570e76efb1724292dae70911955f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main.unity using Guid(e94570e76efb1724292dae70911955f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6216919850967a86bbd47350d13e7bc1') in 0.007965 seconds 
+  Import took 0.012023 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 132.178812 seconds.
+  path: Assets/Scenes/Main.unity
+  artifactKey: Guid(e94570e76efb1724292dae70911955f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main.unity using Guid(e94570e76efb1724292dae70911955f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6727eb7ef77f9ad4ad4c9404aab0c37b') in 0.004590 seconds 
+  Import took 0.008875 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.154673 seconds.
+  path: Assets/Scenes/Level_1.unity
+  artifactKey: Guid(e94570e76efb1724292dae70911955f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level_1.unity using Guid(e94570e76efb1724292dae70911955f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b401f3843d8ccba95ede30625953b54d') in 0.007854 seconds 
+  Import took 0.011274 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 331.059356 seconds.
+  path: Assets/Sprites/Platform.png
+  artifactKey: Guid(5741b32a258714aeb878182f438cb29f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Platform.png using Guid(5741b32a258714aeb878182f438cb29f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ec604baf713ea106176c31b36079b4b') in 0.151393 seconds 
+  Import took 0.155428 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 233.992128 seconds.
+  path: Assets/Sprites/Platform_Long.png
+  artifactKey: Guid(60b5cbf910608489ea5d7bbe0acbf14a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Platform_Long.png using Guid(60b5cbf910608489ea5d7bbe0acbf14a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dc308abd4b4562c4b5cc2901de0ce3c') in 0.015879 seconds 
+  Import took 0.019957 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
