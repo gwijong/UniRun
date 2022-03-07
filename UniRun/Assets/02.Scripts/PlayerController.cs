@@ -1,3 +1,5 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour  //플레이어 캐릭터로서 Player 게임 오브젝트를 제어함
@@ -50,9 +52,10 @@ public class PlayerController : MonoBehaviour  //플레이어 캐릭터로서 Pl
         playerAudio.clip = deathClip;  //오디오소스에 할당된 오디오 클립을 deathClip으로 변경
         playerAudio.Play();  //사망 효과음 재생
         playerRigidbody.velocity = Vector2.zero;  //속도를 제로로 변경
+        playerRigidbody.gravityScale = 0;
         isDead = true;  //사망 상태를 true로 변경
-
         GameManager.instance.OnPlayerDead();
+        StartCoroutine("Destroy");
     }
 
     private void OnTriggerEnter2D(Collider2D collision)  //트리거 콜라이더를 가진 장애물과의 충돌을 감지
@@ -75,5 +78,11 @@ public class PlayerController : MonoBehaviour  //플레이어 캐릭터로서 Pl
     private void OnCollisionExit2D(Collision2D collision)  // 바닥에서 벗어났음을 감지하는 처리
     {
         isGruonded = false;
+    }
+    
+    IEnumerator Destroy()
+    {
+        yield return new WaitForSeconds(0.8f);
+        this.gameObject.SetActive(false);
     }
 }
