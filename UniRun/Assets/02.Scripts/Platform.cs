@@ -5,6 +5,7 @@ using UnityEngine;
 public class Platform : MonoBehaviour
 {
     public GameObject[] obstacles; // 장애물 오브젝트들
+    public GameObject[] coins;
     private bool stepped = false; // 플레이어 캐릭터가 밟았는가
 
 
@@ -17,10 +18,13 @@ public class Platform : MonoBehaviour
             if(Random.Range(0,3) == 0) //현재 순번의 장애물을 3분의 1 확률로 활성화
             {
                 obstacles[i].SetActive(true);
+                coins[i].SetActive(true);
+                coins[i].GetComponent<SpriteRenderer>().enabled = true;
             }
             else
             {
                 obstacles[i].SetActive(false);
+                coins[i].SetActive(false);
             }
         }
     }

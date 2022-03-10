@@ -11,7 +11,7 @@ public class GameManager : MonoBehaviour
     public bool isGameover = false;  // 게임오버 상태
     public Text scoreText;  // 점수를 출력할 UI 텍스트
     public GameObject gameoverUI;  // 게임오버 시 활성화할 UI 게임 오브젝트
-
+    public GameObject panel;
     int score = 0;  // 게임 점수
 
     private void Awake()  //게임 시작과 동시에 싱글턴을 구성
@@ -31,10 +31,27 @@ public class GameManager : MonoBehaviour
 
     void Update()
     {
-       if(isGameover&& Input.GetMouseButtonDown(0))
+        if (panel.activeSelf==true)
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            Time.timeScale = 0.0f;
         }
+        else
+        {
+            Time.timeScale = 1f;
+        }
+    }
+
+    public void Restart()
+    {
+
+         Debug.Log("재시작");
+         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+
+    }
+    public void GameQuit()
+    {
+        Debug.Log("게임 종료");
+        Application.Quit();     
     }
 
     public void AddScore(int newScore) //점수를 증가시키는 메서드

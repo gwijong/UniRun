@@ -13,7 +13,10 @@ public class PlayerController : MonoBehaviour  //플레이어 캐릭터로서 Pl
     private Rigidbody2D playerRigidbody;  //사용할 리지드바디 컴포넌트
     private Animator animator;  //사용할 애니메이터 컴포넌트
     private AudioSource playerAudio;  // 사용할 오디오 소스 컴포넌트
-
+    [SerializeField]
+    private int hp = 2;
+    public GameObject hp1;
+    public GameObject hp2;
     void Start()
     {   
         //초기화
@@ -26,13 +29,39 @@ public class PlayerController : MonoBehaviour  //플레이어 캐릭터로서 Pl
 
     void Update()  //사용자 입력을 감지하고 점프하는 처리
     {
+
         if (isDead)
         {
             // 사망 시 처리를 더 이상 진행하지 않고 종료
             return;
         }
 
-        if(Input.GetMouseButtonDown(0) && jumpCount < 2)// 마우스 왼쪽 버튼을 눌렀으며 최대 점프 횟수에 도달하지 않았다면
+        if (hp == 2)
+        {
+            hp2.SetActive(true);
+            hp1.SetActive(true);
+        }
+
+        if (hp == 1)
+        {
+            hp2.SetActive(false);
+            hp1.SetActive(true);
+        }
+
+        if (hp == 0)
+        {
+            hp2.SetActive(false);
+            hp1.SetActive(false);
+        }
+
+        if (hp < 0)
+        {
+            Die();
+            hp2.SetActive(false);
+            hp1.SetActive(false);
+        }
+
+        if (Input.GetMouseButtonDown(0) && jumpCount < 2)// 마우스 왼쪽 버튼을 눌렀으며 최대 점프 횟수에 도달하지 않았다면
         {
             jumpCount++; //점프 횟수 증가
             playerRigidbody.velocity = Vector2.zero;//점프 직전에 속도를 순간적으로 제로로 변경
@@ -63,6 +92,19 @@ public class PlayerController : MonoBehaviour  //플레이어 캐릭터로서 Pl
         if(collision.tag == "Dead" && !isDead)  //충돌한 상대방의 태그가 Dead이며 아직 사망하지 않았다면
         {
             Die();
+            hp2.SetActive(false);
+            hp1.SetActive(false);
+        }
+        
+        if(collision.tag == "Hit" && !isDead)
+        {
+            hp = hp - 1;
+        }
+
+        if (collision.tag == "Coin" && !isDead)
+        {
+            GameManager.instance.AddScore(5);
+            collision.gameObject.GetComponent<SpriteRenderer>().enabled = false;
         }
     }
 
