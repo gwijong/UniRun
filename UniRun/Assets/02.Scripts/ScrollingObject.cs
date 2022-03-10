@@ -2,7 +2,8 @@ using UnityEngine;
 
 public class ScrollingObject : MonoBehaviour
 {
-    public float speed = 10f;  
+    public static float speed = 10f;
+    public static bool scrollingStop = false;
     void Start()
     {
         
@@ -11,9 +12,11 @@ public class ScrollingObject : MonoBehaviour
    
     void Update()
     {
-        if (!GameManager.instance.isGameover)
+
+        if (!GameManager.instance.isGameover && !scrollingStop)
         {
             transform.Translate(Vector3.left * speed * Time.deltaTime);
-        }      
+        }
+
     }
 }
