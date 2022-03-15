@@ -10,11 +10,9 @@ public class Platform : MonoBehaviour
     public GameObject portal;
     private bool stepped = false; // 플레이어 캐릭터가 밟았는가
 
-
     private void OnEnable() // 컴포넌트가 활성화될 때마다 매번 실행되는 메서드
     {
         stepped = false; //밟힘 상태를 리셋
-
         for (int i = 0; i<obstacles.Length; i++)
         {
             if(Random.Range(0,3) == 0) //현재 순번의 장애물을 3분의 1 확률로 활성화
@@ -48,11 +46,16 @@ public class Platform : MonoBehaviour
         {
             recoverypotion.SetActive(false);
         }
+    }
 
-        if (Random.Range(20, 50) == 20)
+    private void Update()
+    {
+        /*
+        if (GameManager.instance.score >= 100)
         {
             Portal();
         }
+        */
     }
 
     private void OnCollisionEnter2D(Collision2D collision) //발판을 리셋하는 처리

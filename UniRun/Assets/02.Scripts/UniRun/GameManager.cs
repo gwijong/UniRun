@@ -13,7 +13,7 @@ public class GameManager : MonoBehaviour
     public GameObject gameoverUI;  // 게임오버 시 활성화할 UI 게임 오브젝트
     public GameObject panel;
 
-    int score = 0;  // 게임 점수
+    public int score = 0;  // 게임 점수
 
     private void Awake()  //게임 시작과 동시에 싱글턴을 구성
     {

@@ -9,6 +9,7 @@ TagManager:
   - Coin
   - Potion
   - Portal
+  - Fever
   layers:
   - Default
   - TransparentFX

@@ -17,6 +17,8 @@ public class PlayerController : MonoBehaviour  //플레이어 캐릭터로서 Pl
     [SerializeField]
     public int Hp = 10;
     public int MaxHp = 10;
+    public GameObject FeverCheck;
+    public bool fever = false;
     void Start()
     {   
         //초기화
@@ -29,7 +31,15 @@ public class PlayerController : MonoBehaviour  //플레이어 캐릭터로서 Pl
 
     void Update()  //사용자 입력을 감지하고 점프하는 처리
     {
-        gameObject.transform.position = new Vector3(-6, gameObject.transform.position.y, gameObject.transform.position.z);
+        fever = FeverCheck.GetComponent<Fever>().isFever;
+        if (fever)
+        {
+            StopCoroutine("Hit");
+            hit = false;
+            ScrollingObject.scrollingStop = false;
+            gameObject.GetComponent<SpriteRenderer>().color = new Color(1, 1, 1, 1);
+        }
+              
         if (isDead)
         {
             // 사망 시 처리를 더 이상 진행하지 않고 종료
@@ -47,7 +57,9 @@ public class PlayerController : MonoBehaviour  //플레이어 캐릭터로서 Pl
         {
             playerRigidbody.velocity = playerRigidbody.velocity * 0.5f;//현재 속도를 절반으로 변경
         }
-        animator.SetBool("Grounded", isGruonded); //애니메이터의 Grounded 파라미터를 isGrounded 값으로 갱신
+
+            animator.SetBool("Grounded", isGruonded); //애니메이터의 Grounded 파라미터를 isGrounded 값으로 갱신
+
     }
 
     public void Die()
@@ -71,6 +83,10 @@ public class PlayerController : MonoBehaviour  //플레이어 캐릭터로서 Pl
         
         if(collision.tag == "Hit" && !isDead && hit == false)
         {
+            if (fever)
+            {              
+                return;
+            }
             Hp = Hp - 1;
             if (Hp <= 0)
             {
