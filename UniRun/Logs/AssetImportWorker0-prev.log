@@ -1,0 +1,672 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.24f1 (79c78de19888) revision 7980941'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'ko' Physical Memory: 16266 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.24f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Unity/Github/UniRun/UniRun
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+55138
+Successfully changed project path to: D:/Unity/Github/UniRun/UniRun
+D:/Unity/Github/UniRun/UniRun
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 53.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.24f1 (79c78de19888)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.24f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity/Github/UniRun/UniRun/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 3GB (ID=0x1c02)
+    Vendor:   
+    VRAM:     2988 MB
+    Driver:   27.21.14.5671
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.24f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.24f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.24f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56372
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.24f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.24f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002640 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 51.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.638 seconds
+Domain Reload Profiling:
+	ReloadAssembly (638ms)
+		BeginReloadAssembly (60ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (499ms)
+			LoadAssemblies (58ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (159ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (190ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (52ms)
+				BeforeProcessingInitializeOnLoad (18ms)
+				ProcessInitializeOnLoadAttributes (85ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004238 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 51.25 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.227 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1228ms)
+		BeginReloadAssembly (157ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (1005ms)
+			LoadAssemblies (96ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (320ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (394ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (51ms)
+				BeforeProcessingInitializeOnLoad (92ms)
+				ProcessInitializeOnLoadAttributes (221ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2220 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.2 MB.
+System memory in use after: 99.2 MB.
+
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2656.
+Total: 2.990100 ms (FindLiveObjects: 0.210700 ms CreateObjectMapping: 0.103900 ms MarkObjects: 2.609000 ms  DeleteObjects: 0.065500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/09.Pizza/Tile/1스테이지타일_3.png
+  artifactKey: Guid(6aceec3c08d4eae47a181dd827505e60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/09.Pizza/Tile/1스테이지타일_3.png using Guid(6aceec3c08d4eae47a181dd827505e60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b01b9a18d8ce7d5503924c406353f75a') in 0.148851 seconds 
+  Import took 0.152501 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/09.Pizza/Tile/1스테이지타일_2.png
+  artifactKey: Guid(ed527b9160557d44fb4037d8d1c5ea8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/09.Pizza/Tile/1스테이지타일_2.png using Guid(ed527b9160557d44fb4037d8d1c5ea8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4185d39c10c373f26b4ff73de2f3d062') in 0.024906 seconds 
+  Import took 0.028271 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/09.Pizza/Tile/1스테이지타일_.png
+  artifactKey: Guid(a4ddd24ba6a60974092e36d5381a7ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/09.Pizza/Tile/1스테이지타일_.png using Guid(a4ddd24ba6a60974092e36d5381a7ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35d9b75350e691ce5ebb4986dd53089c') in 0.044260 seconds 
+  Import took 0.047733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.505740 seconds.
+  path: Assets/09.Pizza/Tile/basetile01.png
+  artifactKey: Guid(281f6e14dcb03554aaa472bf2939b762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/09.Pizza/Tile/basetile01.png using Guid(281f6e14dcb03554aaa472bf2939b762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2c18385e09302b32c4bd755ec13cd9a') in 0.032426 seconds 
+  Import took 0.036057 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.916094 seconds.
+  path: Assets/09.Pizza/Tile/darktile.png
+  artifactKey: Guid(c9d70009ffdda1843b318dfdc1c647f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/09.Pizza/Tile/darktile.png using Guid(c9d70009ffdda1843b318dfdc1c647f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f348a1093703c7b2a0466ce9d11bf09') in 0.052168 seconds 
+  Import took 0.055995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.471314 seconds.
+  path: Assets/09.Pizza/Tile/KakaoTalk_20200714_140150645.png
+  artifactKey: Guid(bdf75a97745bcb34e9fc1179e0cc0286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/09.Pizza/Tile/KakaoTalk_20200714_140150645.png using Guid(bdf75a97745bcb34e9fc1179e0cc0286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a3f0fbfe5e0470106bd734303e91674') in 0.044769 seconds 
+  Import took 0.048513 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/09.Pizza/Tile/KakaoTalk_20200714_140150761.png
+  artifactKey: Guid(f17fa23788e7e1b4d9aaf0f663211054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/09.Pizza/Tile/KakaoTalk_20200714_140150761.png using Guid(f17fa23788e7e1b4d9aaf0f663211054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7d890df2e5d9cf394868f9bdd246128') in 0.054649 seconds 
+  Import took 0.059060 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.339527 seconds.
+  path: Assets/09.Pizza/Decoration/돌4.png
+  artifactKey: Guid(78b946f854f78154c86418b11262f83d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/09.Pizza/Decoration/돌4.png using Guid(78b946f854f78154c86418b11262f83d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e22c18fba1c1ad52f3a460dd59346f7') in 0.027076 seconds 
+  Import took 0.030867 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/09.Pizza/Decoration/돌6.png
+  artifactKey: Guid(eb5695e801e390c4ea4c3f5da2d9823f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/09.Pizza/Decoration/돌6.png using Guid(eb5695e801e390c4ea4c3f5da2d9823f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa4e8cd09ac0dcd0e43b25d9f3e18909') in 0.036089 seconds 
+  Import took 0.039723 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/09.Pizza/Decoration/돌7.png
+  artifactKey: Guid(fcba6a48e7d696b4c8209582f307c602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/09.Pizza/Decoration/돌7.png using Guid(fcba6a48e7d696b4c8209582f307c602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a8618da8c400113b1ed2e56841c23eb') in 0.023991 seconds 
+  Import took 0.027509 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/09.Pizza/Decoration/돌5.png
+  artifactKey: Guid(eda7b8f4588da8e48b43599b30c2532d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/09.Pizza/Decoration/돌5.png using Guid(eda7b8f4588da8e48b43599b30c2532d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b6716dc187c02d2198c6c2d669a6c65') in 0.021669 seconds 
+  Import took 0.025612 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.661795 seconds.
+  path: Assets/09.Pizza/Decoration/불04.png
+  artifactKey: Guid(dbd70aa6237b3e74c9d003dbe9168ea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/09.Pizza/Decoration/불04.png using Guid(dbd70aa6237b3e74c9d003dbe9168ea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd741035b055333a9b25eb36223fb6eae') in 0.046459 seconds 
+  Import took 0.050900 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/09.Pizza/Character/김덕배/피자싸움/뾰족이싸움.png
+  artifactKey: Guid(60bb97f941e8a7d4db0cb382d8bf1ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/09.Pizza/Character/김덕배/피자싸움/뾰족이싸움.png using Guid(60bb97f941e8a7d4db0cb382d8bf1ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '085e9c6a1ce8824aa0151a1626ec6c21') in 0.052236 seconds 
+  Import took 0.056477 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/09.Pizza/Decoration/불06.png
+  artifactKey: Guid(55f5d9cbd7250c84ba6c5a5ee09b60b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/09.Pizza/Decoration/불06.png using Guid(55f5d9cbd7250c84ba6c5a5ee09b60b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33edd1966ed2bc15a0bb1ba49f46b64c') in 0.035353 seconds 
+  Import took 0.038960 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/09.Pizza/Decoration/불05.png
+  artifactKey: Guid(04ada88952338c242ba0d41fa1b3001a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/09.Pizza/Decoration/불05.png using Guid(04ada88952338c242ba0d41fa1b3001a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c3b713d46551e2a811ce685f34600f9') in 0.026693 seconds 
+  Import took 0.030991 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/09.Pizza/Character/김덕배/피자싸움/토끼승리.png
+  artifactKey: Guid(2d24f94db14f08940924fc03bace439e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/09.Pizza/Character/김덕배/피자싸움/토끼승리.png using Guid(2d24f94db14f08940924fc03bace439e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2cfac2faeaa1bf8ed91072c67ac4285') in 0.047159 seconds 
+  Import took 0.050670 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.160066 seconds.
+  path: Assets/09.Pizza/Character/김덕배/피자싸움/외계인피자뺏기.png
+  artifactKey: Guid(acb18e6e54b369941849d119de2ae4b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/09.Pizza/Character/김덕배/피자싸움/외계인피자뺏기.png using Guid(acb18e6e54b369941849d119de2ae4b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f2d25154631161c88b586d45073871a') in 0.049549 seconds 
+  Import took 0.053165 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/09.Pizza/Decoration/장식001.png
+  artifactKey: Guid(fdc1de0eff0640845b8b5eda938f3bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/09.Pizza/Decoration/장식001.png using Guid(fdc1de0eff0640845b8b5eda938f3bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e25cbfd1da101b4fb47177846eed572d') in 0.091738 seconds 
+  Import took 0.095401 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/09.Pizza/Decoration/일반적사망.png
+  artifactKey: Guid(d6a1b8895478e5a4cab9d941a09d9d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/09.Pizza/Decoration/일반적사망.png using Guid(d6a1b8895478e5a4cab9d941a09d9d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f458c98cb75b49c85f3b448c5a5dad19') in 0.055840 seconds 
+  Import took 0.059633 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/09.Pizza/Decoration/운석.png
+  artifactKey: Guid(7310369a8a58cb74ba1958e8ccc6037d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/09.Pizza/Decoration/운석.png using Guid(7310369a8a58cb74ba1958e8ccc6037d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40eb1e4733611ff480e34aef15e55f9f') in 0.057286 seconds 
+  Import took 0.061074 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/09.Pizza/Decoration/자동차_꿈.png
+  artifactKey: Guid(487c1efe94ee7df4ab13d7c4127b5af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/09.Pizza/Decoration/자동차_꿈.png using Guid(487c1efe94ee7df4ab13d7c4127b5af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff0dbbffa8f37c9398e25c49590fecc4') in 0.105937 seconds 
+  Import took 0.109638 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/09.Pizza/Decoration/자동차_이동.png
+  artifactKey: Guid(cb7c2737fcbdd58499752e3e97ba93b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/09.Pizza/Decoration/자동차_이동.png using Guid(cb7c2737fcbdd58499752e3e97ba93b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ada94a6d0e34cccb36b1acaadadc8eed') in 0.054232 seconds 
+  Import took 0.057935 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/09.Pizza/Decoration/티엔티.png
+  artifactKey: Guid(56945f592a27fdc469cdd5be638a08b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/09.Pizza/Decoration/티엔티.png using Guid(56945f592a27fdc469cdd5be638a08b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e50220e2aac90369fcc239b5f5d21c08') in 0.050230 seconds 
+  Import took 0.054041 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/09.Pizza/Decoration/장식002.png
+  artifactKey: Guid(be149246084d8a04980e155f16c384fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/09.Pizza/Decoration/장식002.png using Guid(be149246084d8a04980e155f16c384fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eddf32135567378ad2d4f072f7067ee') in 0.061976 seconds 
+  Import took 0.065970 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/09.Pizza/Decoration/포탑.png
+  artifactKey: Guid(1fee884869f73a84da01162a670de8fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/09.Pizza/Decoration/포탑.png using Guid(1fee884869f73a84da01162a670de8fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85eeed1daef05aac1137086a77cac30f') in 0.048893 seconds 
+  Import took 0.052598 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.264491 seconds.
+  path: Assets/09.Pizza/Decoration/피자.png
+  artifactKey: Guid(95cd9b95c904c6145a01b0ac93acb7cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/09.Pizza/Decoration/피자.png using Guid(95cd9b95c904c6145a01b0ac93acb7cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7cc809904dd51d639f71a4d35ee44bf') in 0.038626 seconds 
+  Import took 0.042704 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/09.Pizza/Decoration/피자더미.png
+  artifactKey: Guid(f5a6d08f5a34f3845b992c9a6e1abdbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/09.Pizza/Decoration/피자더미.png using Guid(f5a6d08f5a34f3845b992c9a6e1abdbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcd2a638a699253c640472264d2006b7') in 0.034606 seconds 
+  Import took 0.038334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.972256 seconds.
+  path: Assets/09.Pizza/Character/김덕배/피자싸움/미스터심02.png
+  artifactKey: Guid(c719c1fc35d10c94aade7155399f613c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/09.Pizza/Character/김덕배/피자싸움/미스터심02.png using Guid(c719c1fc35d10c94aade7155399f613c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '787d81c12aae0c4815ada939d1255539') in 0.040341 seconds 
+  Import took 0.044244 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 54.907791 seconds.
+  path: Assets/09.Pizza/Decoration/돌3.png
+  artifactKey: Guid(bfdad6b93855c3948ad57cd4048ea5a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/09.Pizza/Decoration/돌3.png using Guid(bfdad6b93855c3948ad57cd4048ea5a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4a5ce992f360f2f466b893220dd2343') in 0.020741 seconds 
+  Import took 0.024575 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 207.893268 seconds.
+  path: Assets/09.Pizza/피자배달로고.jpg
+  artifactKey: Guid(75c0af55e7ca75842b7f15554bf0065c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/09.Pizza/피자배달로고.jpg using Guid(75c0af55e7ca75842b7f15554bf0065c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '694a12580d06d8e40d202ec2a43f4c1e') in 0.022961 seconds 
+  Import took 0.027302 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/09.Pizza/피자배달하기로고.png
+  artifactKey: Guid(a8c0de4b0b4e3264d897fa195832bac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/09.Pizza/피자배달하기로고.png using Guid(a8c0de4b0b4e3264d897fa195832bac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '856ce49302a2670b971f8368a4b43518') in 0.023775 seconds 
+  Import took 0.026951 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.437554 seconds.
+  path: Assets/09.Pizza/피자배달로고.png
+  artifactKey: Guid(f057c10a7b3a3bc4486ecc03b88c218b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/09.Pizza/피자배달로고.png using Guid(f057c10a7b3a3bc4486ecc03b88c218b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f46bbfd3214a9b87d5d456860cd771d') in 0.043976 seconds 
+  Import took 0.047656 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 58.936692 seconds.
+  path: Assets/09.Pizza/Backgruond
+  artifactKey: Guid(5c254acac0c464045ba6a4456dee0314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/09.Pizza/Backgruond using Guid(5c254acac0c464045ba6a4456dee0314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bc3fa7fb0b834881c03d2f80dbaf793') in 0.006089 seconds 
+  Import took 0.009614 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.601592 seconds.
+  path: Assets/08.Particle/52SpecialEffectPack/Texture/Arrow.png
+  artifactKey: Guid(c935484c23fc63d4d95499274d6be275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/08.Particle/52SpecialEffectPack/Texture/Arrow.png using Guid(c935484c23fc63d4d95499274d6be275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c52752cc7c55aa121d81bf2c3a61b68a') in 0.031560 seconds 
+  Import took 0.036492 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.679052 seconds.
+  path: Assets/08.Particle/52SpecialEffectPack/Texture/Core.png
+  artifactKey: Guid(2acc6290a7b9089499ad75f660d56406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/08.Particle/52SpecialEffectPack/Texture/Core.png using Guid(2acc6290a7b9089499ad75f660d56406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63df9a13614d0fb9f69573858fb2445c') in 0.039797 seconds 
+  Import took 0.043396 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/08.Particle/52SpecialEffectPack/Texture/Core2.png
+  artifactKey: Guid(23bf3b24b436dda4d820d31e8c5aff26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/08.Particle/52SpecialEffectPack/Texture/Core2.png using Guid(23bf3b24b436dda4d820d31e8c5aff26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f0aea952ab13b76c3aad081cf77734b') in 0.020926 seconds 
+  Import took 0.024703 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/08.Particle/52SpecialEffectPack/Texture/Core3.png
+  artifactKey: Guid(ca9e194e8af18d44f8e61b9122377592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/08.Particle/52SpecialEffectPack/Texture/Core3.png using Guid(ca9e194e8af18d44f8e61b9122377592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '597cf53bd38b3d2869b7a027fed85a6a') in 0.021001 seconds 
+  Import took 0.024934 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/08.Particle/48 Particle Effect Pack/Texture/Flash3.png
+  artifactKey: Guid(8b6da38d0973c694a89a67f9feb125be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/08.Particle/48 Particle Effect Pack/Texture/Flash3.png using Guid(8b6da38d0973c694a89a67f9feb125be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fd5ee66a01ef45fcab2634fe678d12d') in 0.032914 seconds 
+  Import took 0.037181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/08.Particle/48 Particle Effect Pack/Texture/Flash2.png
+  artifactKey: Guid(30c1daeec32b54b46b7603c40dd9dc8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/08.Particle/48 Particle Effect Pack/Texture/Flash2.png using Guid(30c1daeec32b54b46b7603c40dd9dc8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41a7711cd3b694b26862a47a02e69c86') in 0.010498 seconds 
+  Import took 0.015827 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/08.Particle/48 Particle Effect Pack/Texture/Flash.png
+  artifactKey: Guid(0a2867ff4999dd940b4f11bd7c7570b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/08.Particle/48 Particle Effect Pack/Texture/Flash.png using Guid(0a2867ff4999dd940b4f11bd7c7570b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d0d532ba17ef1c075745dddd14a8083') in 0.009503 seconds 
+  Import took 0.013434 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/08.Particle/48 Particle Effect Pack/Texture/Cube.png
+  artifactKey: Guid(804a6b341b5deb2469f43621937e2922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/08.Particle/48 Particle Effect Pack/Texture/Cube.png using Guid(804a6b341b5deb2469f43621937e2922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e46f6dfda6f19d2eb2c214d1a5887df4') in 0.029662 seconds 
+  Import took 0.033491 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.068169 seconds.
+  path: Assets/08.Particle/48 Particle Effect Pack/Texture/Flash4.png
+  artifactKey: Guid(821a9b4a2d5829841a260abb253abff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/08.Particle/48 Particle Effect Pack/Texture/Flash4.png using Guid(821a9b4a2d5829841a260abb253abff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8ceda27028b5e28eaa3ca5a41bf5f60') in 0.020302 seconds 
+  Import took 0.023970 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 433.318121 seconds.
+  path: Assets/09.Pizza/Tile/KakaoTalk_20200714_140150645.asset
+  artifactKey: Guid(f20c99e417cb97d42b625401bd3ef66e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/09.Pizza/Tile/KakaoTalk_20200714_140150645.asset using Guid(f20c99e417cb97d42b625401bd3ef66e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d34fe709c23df4eaa91908ee0d4914b') in 0.034247 seconds 
+  Import took 0.038818 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/09.Pizza/Tile/KakaoTalk_20200714_140150761.asset
+  artifactKey: Guid(a7b5ef82c6a38444f8da5d4312ea13d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/09.Pizza/Tile/KakaoTalk_20200714_140150761.asset using Guid(a7b5ef82c6a38444f8da5d4312ea13d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e829c0421b86be1500161f9bf12bb2c') in 0.047442 seconds 
+  Import took 0.051155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1239.395283 seconds.
+  path: Assets/07.Font/Kenney Mini Square.ttf
+  artifactKey: Guid(cc62d9f5fc084466e98a53534efd73e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/07.Font/Kenney Mini Square.ttf using Guid(cc62d9f5fc084466e98a53534efd73e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ed426d7bd0e363d3d4774ffb55c75f9') in 0.089455 seconds 
+  Import took 0.093717 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/07.Font/도트폰트.ttf
+  artifactKey: Guid(2a473869f238f7d48b437698b7a05f9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/07.Font/도트폰트.ttf using Guid(2a473869f238f7d48b437698b7a05f9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2a49b6d5e704d14fc41ce76032c497d') in 0.066434 seconds 
+  Import took 0.069901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.358583 seconds.
+  path: Assets/01.Scenes/Loading.unity
+  artifactKey: Guid(317b41947b2a3e04f9a853be0951b97d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01.Scenes/Loading.unity using Guid(317b41947b2a3e04f9a853be0951b97d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c17834061834f3cabf61d73f83a47e80') in 0.005913 seconds 
+  Import took 0.009427 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.261883 seconds.
+  path: Assets/09.Pizza
+  artifactKey: Guid(f9a1738026208f043b708784aa073d89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/09.Pizza using Guid(f9a1738026208f043b708784aa073d89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab4dcb12cedd7555148086a9c83ac6d0') in 0.005257 seconds 
+  Import took 0.008910 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 79.831565 seconds.
+  path: Assets/01.Scenes/Loading.unity
+  artifactKey: Guid(317b41947b2a3e04f9a853be0951b97d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01.Scenes/Loading.unity using Guid(317b41947b2a3e04f9a853be0951b97d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20022a2e7ee39bf891bf0db52838f31e') in 0.002546 seconds 
+  Import took 0.007167 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.759816 seconds.
+  path: Assets/01.Scenes/Main.unity
+  artifactKey: Guid(ce51a06365bb15a4d93943ec8b8a525f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01.Scenes/Main.unity using Guid(ce51a06365bb15a4d93943ec8b8a525f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c0b4d715766622f3f52c7f0a1f2bba1') in 0.005896 seconds 
+  Import took 0.009476 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.9 MB.
+System memory in use after: 59.1 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2736.
+Total: 4.143100 ms (FindLiveObjects: 0.217100 ms CreateObjectMapping: 0.125400 ms MarkObjects: 3.780600 ms  DeleteObjects: 0.019000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.96 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.9 MB.
+System memory in use after: 59.1 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2736.
+Total: 4.250300 ms (FindLiveObjects: 0.220900 ms CreateObjectMapping: 0.101800 ms MarkObjects: 3.907200 ms  DeleteObjects: 0.019000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1250.675232 seconds.
+  path: Assets/06.Audio/BGM.mp3
+  artifactKey: Guid(e90a28b5a139cde47b21ada4b2f2a437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Audio/BGM.mp3 using Guid(e90a28b5a139cde47b21ada4b2f2a437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce9a9521d3890d3faee8875657aff859') in 0.064041 seconds 
+  Import took 0.068561 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/06.Audio/jump.wav
+  artifactKey: Guid(c9878c2e0bb4f2947b4da6a9e3312648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Audio/jump.wav using Guid(c9878c2e0bb4f2947b4da6a9e3312648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20a5db28cbd35e00ff19c4fa6e6dc196') in 0.020868 seconds 
+  Import took 0.024219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/06.Audio/코인.wav
+  artifactKey: Guid(8bc37d82917572840b1ad7b18ddf7799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Audio/코인.wav using Guid(8bc37d82917572840b1ad7b18ddf7799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7054fc63b1a0cf275fbd3a54db64cc3') in 0.026648 seconds 
+  Import took 0.030196 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/06.Audio/die.mp3
+  artifactKey: Guid(001fcc707a486bb4b8d8bf5454f5c3e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Audio/die.mp3 using Guid(001fcc707a486bb4b8d8bf5454f5c3e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46773ebf9c407c674d202252c515512b') in 0.028626 seconds 
+  Import took 0.031932 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 116.975597 seconds.
+  path: Assets/01.Scenes/Main.unity
+  artifactKey: Guid(ce51a06365bb15a4d93943ec8b8a525f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01.Scenes/Main.unity using Guid(ce51a06365bb15a4d93943ec8b8a525f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a0e0ede821cba82ac1b170d4d965087') in 0.002191 seconds 
+  Import took 0.006287 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 85.795662 seconds.
+  path: Assets/09.Pizza/logo1.jpg
+  artifactKey: Guid(75c0af55e7ca75842b7f15554bf0065c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/09.Pizza/logo1.jpg using Guid(75c0af55e7ca75842b7f15554bf0065c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3758bbc1f7b4276a4c7e306bdf6d5396') in 0.018198 seconds 
+  Import took 0.022745 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.544128 seconds.
+  path: Assets/09.Pizza/logo2.png
+  artifactKey: Guid(f057c10a7b3a3bc4486ecc03b88c218b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/09.Pizza/logo2.png using Guid(f057c10a7b3a3bc4486ecc03b88c218b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e88f5d0e7f85d7c4c791f05264a9048c') in 0.051951 seconds 
+  Import took 0.055524 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.055999 seconds.
+  path: Assets/09.Pizza/logo3.png
+  artifactKey: Guid(a8c0de4b0b4e3264d897fa195832bac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/09.Pizza/logo3.png using Guid(a8c0de4b0b4e3264d897fa195832bac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71c4f5302a492e5dfae11c3d629b67a1') in 0.026985 seconds 
+  Import took 0.030631 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.345621 seconds.
+  path: Assets/Plugins/Android
+  artifactKey: Guid(08d48b36c44e0b54a9c7f4f4c9cebbe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android using Guid(08d48b36c44e0b54a9c7f4f4c9cebbe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b83621e1382e678446d86e606a312aa') in 0.004937 seconds 
+  Import took 0.008343 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.865120 seconds.
+  path: Assets/Plugins/Android/AndroidManifest.xml
+  artifactKey: Guid(150ec3ffe57c0e34fa7f2e03a66b2110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android/AndroidManifest.xml using Guid(150ec3ffe57c0e34fa7f2e03a66b2110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2cbdee962233279847a5d3126a618ad') in 0.041315 seconds 
+  Import took 0.044818 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 266.262657 seconds.
+  path: Assets/06.Audio/FiluAndDina_-_8-bit_Exploration_Theme.mp3
+  artifactKey: Guid(3e15e2d603fe71a4c85162d4a240c14d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06.Audio/FiluAndDina_-_8-bit_Exploration_Theme.mp3 using Guid(3e15e2d603fe71a4c85162d4a240c14d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd50622bbd89c1e52f3731097162a1392') in 0.013615 seconds 
+  Import took 0.017938 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 265.336774 seconds.
+  path: Assets/Plugins/Android/AndroidManifest.xml
+  artifactKey: Guid(150ec3ffe57c0e34fa7f2e03a66b2110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android/AndroidManifest.xml using Guid(150ec3ffe57c0e34fa7f2e03a66b2110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c66e11c3147c3a6ca68ae39692623713') in 0.002278 seconds 
+  Import took 0.019985 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
